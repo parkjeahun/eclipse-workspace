@@ -1,0 +1,13 @@
+package template;
+
+public class Avante extends Car{
+	@Override
+	public void drive() {
+		System.out.println("¥ﬁ∏≥¥œ¥Ÿ.");
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("∏ÿ√‰¥œ¥Ÿ");
+	}
+}

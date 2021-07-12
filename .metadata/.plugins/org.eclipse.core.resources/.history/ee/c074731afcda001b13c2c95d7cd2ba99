@@ -1,0 +1,21 @@
+package arraylist;
+
+public class Q3 {
+
+	public static void main(String[] args) {
+		int linecount = 4;
+		int starcount = 1;
+		int spacecount = 0;
+		for(int i = 0; i < linecount; i++) {
+			(int j = 0; j < spacecount; j++){
+			System.out.print(' ');
+		}
+		for(int j = 0; j < starcount; j++) {
+			System.out.print("*");
+		}
+		spacecount =0;
+		starcount+=1;
+		System.out.println();
+	}
+	}
+}

@@ -1,0 +1,16 @@
+package arraylist;
+
+public class Max {
+
+	public static void main(String[] args) {
+        int max = 0;
+        int[] array = {4,5,1,2,3};
+        //작성위치
+       
+        System.out.println("max: " + max);
+    }
+}
+
+	
+
+

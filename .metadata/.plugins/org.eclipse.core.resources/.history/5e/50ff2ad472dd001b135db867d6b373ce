@@ -1,0 +1,17 @@
+package exam;
+import java.util.Scanner;
+public class Q17 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String str[] = {"가위","바위","보"};
+		
+		String userSelect, comSelect;
+		int n;
+		System.out.println("컴퓨터와 게임을 합니다.");
+		do {
+			
+		}
+	}
+
+}

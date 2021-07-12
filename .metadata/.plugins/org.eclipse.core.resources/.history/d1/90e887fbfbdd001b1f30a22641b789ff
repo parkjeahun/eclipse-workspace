@@ -1,0 +1,12 @@
+package lnheritance;
+
+public class ColerPoint extends Point{
+	private String color;	//Á¡ÀÇ »ö 
+	
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public void showColorPoint() {
+		System.out.println(color);
+	}
+}

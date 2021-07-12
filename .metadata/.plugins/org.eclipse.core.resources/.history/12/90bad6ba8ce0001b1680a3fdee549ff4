@@ -1,0 +1,15 @@
+package template;
+
+public class Sonate extends Car {
+
+	@Override
+	public void drive() {
+		System.out.println("Sonate ¥ﬁ∏≥¥œ¥Ÿ.");
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("Sonate ∏ÿ√‰¥œ¥Ÿ");
+	}
+
+}

@@ -1,0 +1,14 @@
+package arraylist;
+
+public class Q3 {
+
+	public static void main(String[] args) {
+		String a ="*";
+		for (int i=0; i < 4; i++) {			// 라인을 처리 하는 FOR
+			for (int j=0; j < 4; j++) {	//별표 왼쪽의 공백 처리
+				System.out.print(a);
+			}
+			System.out.println();
+	}
+	}}
+	

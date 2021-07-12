@@ -1,0 +1,23 @@
+package arraylist;
+import java.util.Iterator;
+import java.util.Scanner;
+public class Q14 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int[] nana = new int[10];
+		
+		for (int i = 0; i<10; i++;) {
+			int i = (int)(Math.random())*10+1);
+		}
+		int num = 0;
+		for(int i = 0; i<10; i++) {
+			num +=nana[i];
+		}
+		System.out.println("평균값은:" + num / 10 + "입니다.");
+		
+		
+		
+	}
+
+}

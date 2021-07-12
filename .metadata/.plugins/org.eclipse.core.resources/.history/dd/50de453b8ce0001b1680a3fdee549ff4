@@ -1,0 +1,16 @@
+package template;
+
+public class Sonate extends Car {
+
+	@Override
+	public void drive() {
+		
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
